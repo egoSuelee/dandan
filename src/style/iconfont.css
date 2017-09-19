@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'dandan_icon_alts';
+  src:  url('fonts/dandan_icon_alts.eot?n0rkfs');
+  src:  url('fonts/dandan_icon_alts.eot?n0rkfs#iefix') format('embedded-opentype'),
+    url('fonts/dandan_icon_alts.ttf?n0rkfs') format('truetype'),
+    url('fonts/dandan_icon_alts.woff?n0rkfs') format('woff'),
+    url('fonts/dandan_icon_alts.svg?n0rkfs#dandan_icon_alts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dandan_icon_alts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dandan-andriod:before {
+  content: "\e900";
+}
+.dandan-ios-apple:before {
+  content: "\e901";
+}
+.dandan-iphone:before {
+  content: "\e902";
+}
+.dandan-uniE900:before {
+  content: "\e903";
+}
+.dandan-uniE901:before {
+  content: "\e904";
+}
+.dandan-uniE902:before {
+  content: "\e905";
+}
+.dandan-uniE9002:before {
+  content: "\e906";
+}
+.dandan-uniE9012:before {
+  content: "\e907";
+}
+.dandan-uniE9022:before {
+  content: "\e908";
+}
+.dandan-uniE903:before {
+  content: "\e909";
+}
+.dandan-uniE904:before {
+  content: "\e90a";
+}
+.dandan-logout:before {
+  content: "\e90b";
+}
+.dandan-wechat:before {
+  content: "\e90c";
+}
+.dandan-uniE905:before {
+  content: "\e90d";
+}
+.dandan-uniE906:before {
+  content: "\e90e";
+}
+.dandan-uniE907:before {
+  content: "\e90f";
+}
+.dandan-uniE908:before {
+  content: "\e910";
+}
+.dandan-uniE909:before {
+  content: "\e911";
+}
+.dandan-uniE90A:before {
+  content: "\e912";
+}
+.dandan-uniE90B:before {
+  content: "\e913";
+}
+.dandan-uniE90C:before {
+  content: "\e914";
+}
+.dandan-uniE90D:before {
+  content: "\e915";
+}
+.dandan-uniE90E:before {
+  content: "\e916";
+}
+.dandan-uniE90F:before {
+  content: "\e917";
+}
+.dandan-uniE910:before {
+  content: "\e918";
+}
+.dandan-uniE911:before {
+  content: "\e919";
+}
+.dandan-uniE912:before {
+  content: "\e91a";
+}
+.dandan-uniE913:before {
+  content: "\e91b";
+}
+.dandan-uniE914:before {
+  content: "\e91c";
+}
+.dandan-uniE915:before {
+  content: "\e91d";
+}
+.dandan-uniE916:before {
+  content: "\e91e";
+}
+.dandan-uniE917:before {
+  content: "\e91f";
+}
+.dandan-uniE918:before {
+  content: "\e920";
+}
+.dandan-uniE919:before {
+  content: "\e921";
+}
+.dandan-uniE91A:before {
+  content: "\e922";
+}
+.dandan-uniE91B:before {
+  content: "\e923";
+}
+.dandan-uniE91C:before {
+  content: "\e924";
+}
+.dandan--:before {
+  content: "\e925";
+}
+.dandan-uniE91F:before {
+  content: "\e926";
+}
+.dandan-uniE920:before {
+  content: "\e927";
+}
+.dandan-uniE921:before {
+  content: "\e928";
+}
+.dandan-uniE922:before {
+  content: "\e929";
+}
+.dandan-uniE923:before {
+  content: "\e92a";
+}
+.dandan-uniE924:before {
+  content: "\e92b";
+}
+.dandan-uniE925:before {
+  content: "\e92c";
+}
+.dandan-camera:before {
+  content: "\e92d";
+}
+.dandan-cart:before {
+  content: "\e93a";
+}
+.dandan-location2:before {
+  content: "\e948";
+}
+.dandan-map:before {
+  content: "\e94b";
+}
+.dandan-hour-glass:before {
+  content: "\e979";
+}
+.dandan-spinner:before {
+  content: "\e97a";
+}
+.dandan-sales:before {
+  content: "\f900";
+}
+.dandan-category:before {
+  content: "\f901";
+}
+.dandan-share:before {
+  content: "\f902";
+}
+.dandan-rank:before {
+  content: "\f903";
+}
+.dandan-scan:before {
+  content: "\f904";
+}
+.dandan-delete:before {
+  content: "\f905";
+}
+.dandan-upgrade:before {
+  content: "\f906";
+}
+.dandan-add:before {
+  content: "\f907";
+}
+.dandan-mine:before {
+  content: "\f90a";
+}
+.dandan-select:before {
+  content: "\f90b";
+}
+.dandan-alipay:before {
+  content: "\f90c";
+}
+.dandan-oftenBuy:before {
+  content: "\f90d";
+}
+.dandan-home:before {
+  content: "\f90e";
+}
+.dandan-phone:before {
+  content: "\f942";
+}
+.dandan-phone2:before {
+  content: "\f943";
+}
+.dandan-time:before {
+  content: "\f94f";
+}
+.dandan-time2:before {
+  content: "\f950";
+}
+.dandan-uniE91D:before {
+  content: "\1f30a";
+}

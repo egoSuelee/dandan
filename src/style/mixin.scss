@@ -1,0 +1,134 @@
+$blue: #3190e8; 
+// $appMainColor: #06DBC6; 
+$appMainColor: rgba(65, 148, 229, 1);
+$bc: #e4e4e4;
+$fc:#fff;
+$footerGuideH: 2.2rem;
+$headerGuideH: 1.95rem;
+
+/* 颜色库 */
+
+
+// 背景图片地址和大小
+@mixin bis($url) { 
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+// @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5){
+//     .border1px {
+//         &:after {
+//             -webkit-transform:scaleY(0.7);
+//             transform: scaleY(0.7);
+//         } 
+//     }
+// }
+
+// @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+//     .border1px {
+//         &:after {
+//             -webkit-transform:scaleY(0.5);
+//             transform: scaleY(0.5);
+//         } 
+//     }
+// }
+
+//下边框一像素
+@mixin border1px($color) {
+	position: relative;
+	&:after {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		border-top:1px solid $color;
+		content: ' ';
+	}
+}
+
+//上下边框各一像素
+@mixin border1px_top_bottom($color) {
+	position: relative;
+	&:before {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: -1px;
+		width: 100%;
+		border-top:1px solid $color;
+		content: ' ';
+	}
+	&:after {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		border-top:1px solid $color;
+		content: ' ';
+	}
+}
+
+
+@mixin borderRadius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+//定位全屏
+@mixin allcover{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+//定位上下左右居中
+@mixin center {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin ct {  
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位左右居中
+@mixin cl {  
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+//宽高
+@mixin wh($width, $height){
+	width: $width;
+	height: $height;
+}
+
+//字体大小、行高、字体
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {  
+	font: #{$size}/#{$line-height} $family;
+}
+
+//字体大小，颜色
+@mixin sc($size, $color){
+	font-size: $size;
+	color: $color;
+}
+
+//flex 布局和 子元素 对其方式
+@mixin fj($type: space-between){
+	display: flex;
+	justify-content: $type;
+
+}
+
